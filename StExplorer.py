@@ -132,5 +132,4 @@ class StExplorerCommand(sublime_plugin.WindowCommand):
             sublime.error_message('Error (line 69) : No Path Found')
 
         # print '> open_files(' + path + ')'
-
-        # self.window.open_file(path)
+        self.window.open_file(path)
