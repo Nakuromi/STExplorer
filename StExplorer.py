@@ -1,4 +1,4 @@
-# Copyright (c) 2012 Krystalic.com - Mathieu Claudel - Tout droits réservés
+# Copyright (c) 2012 Krystalic.com - Mathieu Claudel - Tout droits reserves
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -12,6 +12,7 @@
 
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
 
 import sublime
 import sublime_plugin
@@ -27,8 +28,8 @@ class StExplorerCommand(sublime_plugin.WindowCommand):
     options = []
     dir = []
 
-    def __init__(self, *args, **kwargs):
-        super(StExplorerCommand, self).__init__(*args, **kwargs)
+    # def __init__(self, *args, **kwargs):
+        # super(StExplorerCommand, self).__init__(*args, **kwargs)
 
     def run(self):
         # print '------------------------------------------------------------------------------------------------'
