@@ -1,0 +1,27 @@
+{
+
+	//
+	// No modify this file, please use USER SETTINGS FILE 
+	// 
+
+	// DEFAULT LANGUAGE
+	// "fr" (default) / "en"
+	"StE_language" : "fr",
+
+
+	// SAVE LAST DIRECTORY USING
+	// "false" (default) / "true"
+	// if "true", when pannel is open second time, the root directory is the last directory when closed
+	// 
+	// !! not use in plugin yet
+	// !! to make
+	"StE_save_last_directory" : false,
+
+
+	// 		/!\
+	// TEXT TRADUCTION
+	// Do not modify
+	// 		/!\
+	"StE_text_to_close_fr": "Fermer le panneau",
+	"StE_text_to_close_en": "Close pannel"
+}
