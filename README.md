@@ -42,4 +42,4 @@ Invoke the quick panel and search for "STExplorer" or just use the key bindings.
 
 ## Contact
 
-  Please contact me on mat-github@krystalic.com
+  Please contact me on mat-github(AT)krystalic.com
