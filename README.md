@@ -4,7 +4,7 @@ STExplorer : SublimeTextExplorer
 
 This plugin lets you explore all your computer files and directory.
 
-This is my first plugin for ST2 and my first use of python language. It is a beta version, please report me all bug you'll seen on Github.
+This is my first plugin for ST2 and my first use of python language. It is a beta version, please report me busg you'll seen on Github.
 
 ## How to install
 
