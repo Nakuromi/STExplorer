@@ -32,11 +32,14 @@ class StExplorerCommand(sublime_plugin.WindowCommand):
         # super(StExplorerCommand, self).__init__(*args, **kwargs)
 
     def run(self):
-        # print '------------------------------------------------------------------------------------------------'
+        print '------------------------------------------------------------------------------------------------'
         # print '------------------------------------------------------------------------------------------------'
 
         self.language = self.load_options('StE_language')
+
         # key = 'StE_text_to_close_' + self.language
+        # print key
+
         self.text_language['text_to_close'] = self.load_options('StE_text_to_close_' + self.language)
         self.reset()
         self.build_root()
@@ -87,7 +90,13 @@ class StExplorerCommand(sublime_plugin.WindowCommand):
                 self.open_files(self.root + self.delimiter + self.dir[index][0])
 
     def build_root(self):
-        self.default_root = self.window.folders()[0]
+        nin = str(self.window.active_view().file_name().rfind('\\'))
+        ninb = int(nin)
+        s1 = str(self.window.active_view().file_name())
+        s2 = s1[:ninb]
+
+        # self.default_root = self.window.folders()[0]
+        self.default_root = s2
 
     def prepare_dir(self, root=None):
         if not root:
