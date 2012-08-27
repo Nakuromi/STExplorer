@@ -90,10 +90,13 @@ class StExplorerCommand(sublime_plugin.WindowCommand):
                 self.open_files(self.root + self.delimiter + self.dir[index][0])
 
     def build_root(self):
-        nin = str(self.window.active_view().file_name().rfind('\\'))
-        ninb = int(nin)
-        s1 = str(self.window.active_view().file_name())
-        s2 = s1[:ninb]
+        if self.window.active_view().file_name() == None:
+            s2 = self.window.folders()[0]
+        else:
+            nin = str(self.window.active_view().file_name().rfind('\\'))
+            ninb = int(nin)
+            s1 = str(self.window.active_view().file_name())
+            s2 = s1[:ninb]
 
         # self.default_root = self.window.folders()[0]
         self.default_root = s2
