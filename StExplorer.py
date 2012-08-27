@@ -32,7 +32,7 @@ class StExplorerCommand(sublime_plugin.WindowCommand):
         # super(StExplorerCommand, self).__init__(*args, **kwargs)
 
     def run(self):
-        print '------------------------------------------------------------------------------------------------'
+        # print '------------------------------------------------------------------------------------------------'
         # print '------------------------------------------------------------------------------------------------'
 
         self.language = self.load_options('StE_language')
