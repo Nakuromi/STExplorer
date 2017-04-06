@@ -1,5 +1,7 @@
 # STEXPLORER : Explorer plugin for Sublime Text 2
 
+# PLUGIN NOT AVAILABLE - NOT UPDATE FOR ST3 & ST2
+
 STExplorer : SublimeTextExplorer
 
 This plugin lets you explore all your computer files and directory.
