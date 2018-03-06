@@ -2,6 +2,8 @@
 
 # PLUGIN NOT AVAILABLE - NOT UPDATE FOR ST3 & ST2
 
+### DEPRECIATED : this project is no longer updated and is abandoned
+
 STExplorer : SublimeTextExplorer
 
 This plugin lets you explore all your computer files and directory.
